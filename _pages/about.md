@@ -3,7 +3,7 @@ title: "About"
 permalink: /about/
 author_profile: true
 comments: false
-layout: home
+layout: single
 date: 2024-08-11
 ---
 

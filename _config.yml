@@ -395,3 +395,11 @@ defaults:
       layout: single
       author_profile: false
       share: true
+  # _recipes
+  - scope:
+      path: ""
+      type: recipes
+    values:
+      layout: single
+      author_profile: true
+      share: true

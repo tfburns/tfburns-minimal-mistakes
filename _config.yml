@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "defau
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Hom"
+title                    : "Home"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Tom Burns"
@@ -125,8 +125,8 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+    - label: "X (formerly Twitter)"
+      icon: "fab fa-fw fa-x"
       url: "https://twitter.com/tfburns"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
@@ -146,7 +146,7 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: 
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:

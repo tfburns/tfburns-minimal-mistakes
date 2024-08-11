@@ -132,7 +132,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/tfburns"
     - label: "YouTube"
-      icon: "fab fa-fw fa-youtube-play"
+      icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/c/TomBurns10/"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"

@@ -17,10 +17,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "defau
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Tom Burns"
+title                    : "Hom"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : # "Your Name"
+name                     : "Tom Burns"
 description              : "Personal website of Tom Burns."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -113,7 +113,7 @@ analytics:
 
 # Site Author
 author:
-  name             : # "Your Name"
+  name             : "Tom Burns"
   avatar           : "/assets/images/tom-square.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Postdoc @ Cornell"
   location         : "Ithaca, NY, USA"
@@ -122,21 +122,24 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:tfb43@cornell.edu"
-    # - label: "Website"
-    #   icon: "fas fa-fw fa-link"
-    #   # url: "https://your-website.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/tfburns"
-    # - label: "Facebook"
-    #   icon: "fab fa-fw fa-facebook-square"
-    #   # url: "https://facebook.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/tfburns"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   # url: "https://instagram.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-boook"
+      url: "https://scholar.google.com/citations?hl=en&user=xifCmHAAAAAJ&view_op=list_works&sortby=pubdate"
 
 # Site Footer
 footer:

@@ -119,34 +119,32 @@ author:
   location         : "Ithaca, NY, USA"
   email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:tfb43@cornell.edu"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
     - label: "X (formerly Twitter)"
       icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/tfburns"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/tfburns"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
     - label: "Google Scholar"
       icon: "fas fa-fw fa-book"
       url: "https://scholar.google.com/citations?hl=en&user=xifCmHAAAAAJ&view_op=list_works&sortby=pubdate"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/tfburns/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/tfburns"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube-play"
+      url: "https://www.youtube.com/c/TomBurns10/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:tfb43@cornell.edu"
+
 
 # Site Footer
 footer:
   links:
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: 
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/tfburns"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:

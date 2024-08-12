@@ -1,8 +1,4 @@
 ---
-published: true
-author: Tom Burns
-show_date: true
-last_modified_at: 2024-08-11T00:00:00+01:00
 title: "Detecting danger in gridworlds using Gromov's Link Condition"
 excerpt: "By representing all possible configurations of multi-agent gridworlds as a single geometric space, we show positive curvature detects potential collisions."
 
@@ -10,6 +6,9 @@ author_profile: true
 share: true
 comments: false
 related: true
+
+show_date: true
+last_modified_at: 2024-08-11T00:00:00+01:00
 ---
 
 ![gif](/tfburns-minimal-mistakes/assets/images/research/BurnsTangTMLR2023/koala-ball-playing.gif)

@@ -371,7 +371,7 @@ collections:
 #       share: true
 #       related: true
 #       show_date: true
-Defaults
+# Defaults
 defaults:
   # _pages
   - scope:

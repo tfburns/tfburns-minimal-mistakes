@@ -315,6 +315,9 @@ collections:
   research:
     output: true
     permalink: /:collection/:path/
+  recipes:
+    output: true
+    permalink: /:collection/:path/
 
 # # Defaults
 # defaults:

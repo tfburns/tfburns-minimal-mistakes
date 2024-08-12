@@ -8,7 +8,7 @@ comments: false
 related: true
 
 show_date: true
-date: 2022-02-23
+date: 2019-07-30
 
 header:
   teaser: /assets/images/research/BurnsRajanFrontNeuro2019/figure1-th.png

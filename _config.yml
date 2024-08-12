@@ -380,7 +380,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-  _research
+  # _research
   - scope:
       path: ""
       type: research

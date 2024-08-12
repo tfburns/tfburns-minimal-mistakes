@@ -13,16 +13,16 @@ last_modified_at: 2024-08-11T00:00:00+01:00
 header:
   teaser: /assets/images/research/BurnsICML2024/multi-scale_tutte-th.jpg
   overlay_image: /assets/images/research/BurnsICML2024/multi-scale_tutte.PNG
-  overlay_filter: 0.3
+  overlay_filter: 0.5
   actions:
-    - label: "PDF"
-      url: "https://proceedings.mlr.press/v235/burns24a.html"
-	- label: "GitHub repo"
-      url: "https://github.com/tfburns/CDAM"
-	- label: "X thread"
-      url: "https://x.com/tfburns/status/1778232751348388133"
-	- label: "Talk"
-      url: "https://www.youtube.com/watch?v=2YqN2hJExSY"
+  - label: "PDF"
+    url: "https://proceedings.mlr.press/v235/burns24a.html"
+  - label: "GitHub repo"
+    url: "https://github.com/tfburns/CDAM"
+  - label: "X thread"
+    url: "https://x.com/tfburns/status/1778232751348388133"
+  - label: "Talk"
+    url: "https://www.youtube.com/watch?v=2YqN2hJExSY"
 
 read_time: true
 words_per_minute: 150

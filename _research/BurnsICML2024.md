@@ -25,7 +25,7 @@ header:
     url: "https://www.youtube.com/watch?v=2YqN2hJExSY"
 
 categories:
-  - AI interpretability & evaluation
+  - Transformers & associative memory
 ---
 
 Systems like ChatGPT use powerful AI models called Transformers behind-the-scenes. A key component of Transformers closely resembles a modern version of a neuroscience theory called associative memory. We experience a range of related phenomena in our daily lives, which can be classified into two kinds: auto-association and hetero-association.

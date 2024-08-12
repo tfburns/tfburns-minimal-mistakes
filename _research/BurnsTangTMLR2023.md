@@ -23,6 +23,8 @@ header:
     url: "https://x.com/tfburns/status/1531442853699670017"
   - label: "Talk"
     url: "https://www.youtube.com/watch?v=O5Xs9JRIOTw"
+  - label: "Press release"
+    url: "https://www.oist.jp/news-center/news/2024/2/27/enter-gridworld-using-geometry-detect-danger-ai-environments"
 
 categories:
   - AI interpretability & evaluation

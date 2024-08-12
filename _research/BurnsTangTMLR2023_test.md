@@ -14,9 +14,19 @@ header:
   teaser: /assets/images/research/BurnsTangTMLR2023/petal-walk-th.PNG
   overlay_image: /assets/images/research/BurnsTangTMLR2023/petal-walk.PNG
   overlay_filter: 0.5
+  actions:
+  - label: "PDF"
+    url: "https://openreview.net/forum?id=t4p612DftO"
+  - label: "GitHub repo"
+    url: "https://github.com/tfburns/State-Complexes-of-Gridworlds"
+  - label: "X thread"
+    url: "https://x.com/tfburns/status/1531442853699670017"
+  - label: "Talk"
+    url: "https://www.youtube.com/watch?v=O5Xs9JRIOTw"
 
 read_time: true
-words_per_minute: 200
+words_per_minute: 100
+
 categories:
   - AI interpretability & evaluation
 ---

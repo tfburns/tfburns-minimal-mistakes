@@ -1,6 +1,6 @@
 ---
 title: "Semantically-correlated memories in a dense associative model"
-excerpt: "Mixtures of auto- and hetero-associative memory can perform a range of tasks and suggests new neuroscience-inspired AI interpretability approaches."
+excerpt: "Mixtures of auto- and hetero-associative memory can perform a range of tasks, suggesting new neuroscience-inspired Transformer interpretability approaches."
 
 author_profile: true
 share: true

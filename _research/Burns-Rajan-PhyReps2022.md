@@ -12,7 +12,7 @@ date: 2022-02-23
 
 header:
   teaser: /assets/images/research/BurnsRajanPhyReps2022/figure1-th.png
-  overlay_image: /assets/images/research/BurnsRajanPhyReps2022/figure1.PNG
+  overlay_image: /assets/images/research/BurnsRajanPhyReps2022/figure1.png
   overlay_filter: 0.5
   actions:
   - label: "PDF"

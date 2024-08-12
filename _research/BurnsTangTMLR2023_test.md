@@ -1,5 +1,11 @@
 ---
+published: true
+author: Tom Burns
+show_date: true
+last_modified_at: 2024-08-11T00:00:00+01:00
 title: "BurnsTang test"
+excerpt: "By representing all possible configurations of multi-agent gridworlds as a single geometric space, we show positive curvature detects potential collisions."
+
 ---
 
 ![gif](/tfburns-minimal-mistakes/assets/images/research/BurnsTangTMLR2023/koala-ball-playing.gif)

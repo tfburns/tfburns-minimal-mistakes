@@ -16,7 +16,7 @@ header:
   overlay_filter: 0.5
   actions:
   - label: "PDF"
-    url: "https://doi.org/10.3389/fnins.2019.00794"
+    url: "/assets/pdfs/Burns-Rajan-FrontNeuro-2019.pdf"
 
 categories:
   - Systems neuroscience

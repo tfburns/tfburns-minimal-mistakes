@@ -8,7 +8,7 @@ comments: false
 related: true
 
 show_date: true
-last_modified_at: 2023-12-06T00:00:00+01:00
+date: 2023-12-06
 
 header:
   teaser: /assets/images/research/BurnsTangTMLR2023/staircase_v3_web-header-th.png

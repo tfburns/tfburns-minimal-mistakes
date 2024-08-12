@@ -1,24 +1,19 @@
 ---
-published: true
-author: Tom Burns
-show_date: true
-last_modified_at: 2024-08-11T00:00:00+01:00
-
 title: "Semantically-correlated memories in a dense associative model"
 excerpt: "Mixtures of auto- and hetero-associative memory can perform a range of tasks and suggests new neuroscience-inspired AI interpretability approaches."
 
-permalink: /BurnsICML2024/
-collection: research
-search: true
+author_profile: true
+share: true
+comments: false
+related: true
 
-layout: single
-entries_layout: list # list (default), grid
+show_date: true
+last_modified_at: 2024-08-11T00:00:00+01:00
 
 header:
   teaser: /assets/images/research/BurnsICML2024/multi-scale_tutte-th.jpg
-  image: /assets/images/research/BurnsICML2024/multi-scale_tutte.png
-  overlay_image: /assets/images/research/BurnsICML2024/multi-scale_tutte.png
-  overlay_filter: 0.3 # same as adding an opacity of 0.5 to a black background
+  overlay_image: /assets/images/research/BurnsICML2024/multi-scale_tutte.PNG
+  overlay_filter: 0.3
   actions:
     - label: "PDF"
       url: "https://proceedings.mlr.press/v235/burns24a.html"
@@ -30,15 +25,10 @@ header:
       url: "https://www.youtube.com/watch?v=2YqN2hJExSY"
 
 read_time: true
-words_per_minute: 200
-
-author_profile: true
-share: true
-comments: false
-related: true
+words_per_minute: 150
 
 categories:
-  - Transformers & associative memory
+  - AI interpretability & evaluation
 ---
 
 Systems like ChatGPT use powerful AI models called Transformers behind-the-scenes. A key component of Transformers closely resembles a modern version of a neuroscience theory called associative memory. We experience a range of related phenomena in our daily lives, which can be classified into two kinds: auto-association and hetero-association.

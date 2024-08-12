@@ -1,51 +1,41 @@
 ---
-published: true
-author: Tom Burns
-show_date: true
-last_modified_at: 2024-08-11T00:00:00+01:00
-
 title: "Detecting danger in gridworlds using Gromov's Link Condition"
 excerpt: "By representing all possible configurations of multi-agent gridworlds as a single geometric space, we show positive curvature detects potential collisions."
-
-permalink: /BurnsTangTMLR2023/
-collection: research
-search: true
-
-layout: single
-entries_layout: list # list (default), grid
-
-header:
-  teaser: /tfburns-minimal-mistakes/assets/images/research/BurnsTangTMLR2023/petal-walk-th.PNG
-  image: /tfburns-minimal-mistakes/assets/images/research/BurnsTangTMLR2023/petal-walk.PNG
-  overlay_image: /tfburns-minimal-mistakes/assets/images/research/BurnsTangTMLR2023/petal-walk.PNG
-  overlay_filter: 0.3 # same as adding an opacity of 0.5 to a black background
-  actions:
-    - label: "PDF"
-      url: "https://openreview.net/forum?id=t4p612DftO"
-	- label: "GitHub repo"
-      url: "https://github.com/tfburns/State-Complexes-of-Gridworlds"
-	- label: "X thread"
-      url: "https://x.com/tfburns/status/1531442853699670017"
-	- label: "Talk"
-      url: "https://www.youtube.com/watch?v=O5Xs9JRIOTw"
-
-read_time: true
-words_per_minute: 200
 
 author_profile: true
 share: true
 comments: false
 related: true
 
+show_date: true
+last_modified_at: 2024-08-11T00:00:00+01:00
+
+header:
+  teaser: /assets/images/research/BurnsTangTMLR2023/staircase_v3_web-header-th.png
+  overlay_image: /assets/images/research/BurnsTangTMLR2023/staircase_v3_web-header.png
+  overlay_filter: 0.5
+  actions:
+  - label: "PDF"
+    url: "https://openreview.net/forum?id=t4p612DftO"
+  - label: "GitHub repo"
+    url: "https://github.com/tfburns/State-Complexes-of-Gridworlds"
+  - label: "X thread"
+    url: "https://x.com/tfburns/status/1531442853699670017"
+  - label: "Talk"
+    url: "https://www.youtube.com/watch?v=O5Xs9JRIOTw"
+
+read_time: true
+words_per_minute: 150
+
 categories:
   - AI interpretability & evaluation
 ---
 
-![gif](/tfburns-minimal-mistakes/assets/images/research/BurnsTangTMLR2023/koala-ball-playing.gif)
-
 In physics, spacetime is a geometric object which represents the three dimensions of space and the single dimension of time. Gravitational force is represented in this geometric object by its curvature. Can we do something similar in AI? For example, can we represent typical AI environments using a single geometric object? And if we could, what would its properties tell us?
 
 Introducing tools from geometric group theory and combinatorics to the AI community, my co-author Robert Tang and I demonstrate a proof-of-concept via simple gridworld environments.
+
+![gif](/tfburns-minimal-mistakes/assets/images/research/BurnsTangTMLR2023/koala-ball-playing.gif)
 
 Gridworlds have been long-utilised in AI research, particularly in reinforcement learning, which itself has been used to successfully beat world-champions in board games like chess and Go and video games like StarCraft and DOTA 2. Gridworlds provide simple yet scalable models for potential real-world applications, e.g., safely coordinating the movements of self-driving cars or warehouse robots. A gridworld is made up of square cells, arranged in a grid, where cells can be occupied or not. In our gridworlds, cells can be occupied by a single agent (a koala) or object (a beach ball).
 

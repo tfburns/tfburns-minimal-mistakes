@@ -12,7 +12,6 @@ last_modified_at: 2024-08-11T00:00:00+01:00
 
 header:
   teaser: /assets/images/research/BurnsTangTMLR2023/petal-walk-th.PNG
-  image: /assets/images/research/BurnsTangTMLR2023/petal-walk.PNG
   overlay_image: /assets/images/research/BurnsTangTMLR2023/petal-walk.PNG
   overlay_filter: 0.5
 

@@ -11,8 +11,8 @@ show_date: true
 last_modified_at: 2024-08-11T00:00:00+01:00
 
 header:
-  teaser: /assets/images/research/BurnsTangTMLR2023/petal-walk-th.PNG
-  overlay_image: /assets/images/research/BurnsTangTMLR2023/petal-walk.PNG
+  teaser: /assets/images/research/BurnsTangTMLR2023/staircase_v3_web-header-th.PNG
+  overlay_image: /assets/images/research/BurnsTangTMLR2023/staircase_v3_web-header.PNG
   overlay_filter: 0.5
   actions:
   - label: "PDF"

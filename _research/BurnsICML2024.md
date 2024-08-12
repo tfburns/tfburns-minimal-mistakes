@@ -24,9 +24,6 @@ header:
   - label: "Talk"
     url: "https://www.youtube.com/watch?v=2YqN2hJExSY"
 
-read_time: true
-words_per_minute: 150
-
 categories:
   - AI interpretability & evaluation
 ---

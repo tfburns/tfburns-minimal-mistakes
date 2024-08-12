@@ -119,7 +119,7 @@ author:
   location         : "Ithaca, NY, USA"
   email            :
   links:
-    - label: "X (formerly Twitter)"
+    - label: "@tfburns"
       icon: "fab fa-fw fa-x-twitter"
       url: "https://twitter.com/tfburns"
     - label: "Google Scholar"
@@ -142,7 +142,7 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "X  (formerly Twitter)"
+    - label: "@tfburns"
       icon: "fab fa-fw fa-x-twitter"
       url: "https://twitter.com/tfburns"
     - label: "Facebook"

@@ -32,8 +32,10 @@ Systems like ChatGPT use powerful AI models called Transformers behind-the-scene
 
 Auto-association is when we use partial information to retrieve a full memory, e.g., remembering someone’s birthday party by being reminded of the venue it was held in. Hetero-association is when information of one memory directs us to another memory, e.g., remembering someone’s previous birthday party after remembering their most recent birthday party. In theoretical and computational neuroscience, these phenomena have often been studied separately. In this work, I study them in combination, with an aim of contributing to our theoretical understanding of Transformers and systems like ChatGPT.
 
+![gif](/tfburns-minimal-mistakes/assets/images/research/BurnsICML2024/automaton_animation_small-fast_optimised.gif)
+
 I show auto- and hetero-associative mixtures can perform a range of tasks, including:
-- simulating a basic model of computation (a finite automaton, as illustrated in the animation below)
+- simulating a basic model of computation (a finite automaton, as illustrated in the animation above)
 - multi-scale representations of networks, e.g., social networks and their groupings at different scales
 - stabilizing video memory by preventing the video getting 'stuck' on a frame or skipping forwards or backwards
 - providing a more graceful trade-off between memory fidelity and storage capacity

@@ -1,6 +1,6 @@
 ---
-title: "Temporal activity patterns of layer II and IV rat barrel cortex neurons in healthy and injured conditions"
-excerpt: "Temporal coding in biological neurons is well-known, but does it change in brain injury and can it functionally recover to pre-injury coding schemas?"
+title: "A Mathematical Approach to Correlating Objective Spectro-Temporal Features of Non-linguistic Sounds With Their Subjective Perceptions in Humans"
+excerpt: "We find that subjective perceptions of non-linguistic sounds are at least in part associated with some deep mathematical features of the sounds' waveforms."
 
 author_profile: true
 share: true
@@ -12,7 +12,7 @@ date: 2022-02-23
 
 header:
   teaser: /assets/images/research/BurnsRajanFrontNeuro2019/figure1-th.png
-  overlay_image: /assets/images/research/BurnsRajanFrontNeuro2019/figure1.png
+  overlay_image: /assets/images/research/BurnsRajanFrontNeuro2019/figure1.PNG
   overlay_filter: 0.5
   actions:
   - label: "PDF"
@@ -22,7 +22,7 @@ categories:
   - Systems neuroscience
 ---
 
-<audio controls="1" src="/assets/audio/NLSs_audio_abstract.wav">Your browser does not support the audio tag.</audio>
+<audio controls="1" src="/tfburns-minimal-mistakes/assets/audio/NLSs_audio_abstract.wav">Your browser does not support the audio tag.</audio>
 
 How complex would you say the following sound is? [crank engine sound]
 

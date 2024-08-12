@@ -9,6 +9,26 @@ related: true
 
 show_date: true
 last_modified_at: 2024-08-11T00:00:00+01:00
+
+header:
+  teaser: /tfburns-minimal-mistakes/assets/images/research/BurnsTangTMLR2023/petal-walk-th.PNG
+  image: /tfburns-minimal-mistakes/assets/images/research/BurnsTangTMLR2023/petal-walk.PNG
+  overlay_image: /tfburns-minimal-mistakes/assets/images/research/BurnsTangTMLR2023/petal-walk.PNG
+  overlay_filter: 0.3 # same as adding an opacity of 0.5 to a black background
+  actions:
+    - label: "PDF"
+      url: "https://openreview.net/forum?id=t4p612DftO"
+	- label: "GitHub repo"
+      url: "https://github.com/tfburns/State-Complexes-of-Gridworlds"
+	- label: "X thread"
+      url: "https://x.com/tfburns/status/1531442853699670017"
+	- label: "Talk"
+      url: "https://www.youtube.com/watch?v=O5Xs9JRIOTw"
+
+read_time: true
+words_per_minute: 200
+categories:
+  - AI interpretability & evaluation
 ---
 
 ![gif](/tfburns-minimal-mistakes/assets/images/research/BurnsTangTMLR2023/koala-ball-playing.gif)

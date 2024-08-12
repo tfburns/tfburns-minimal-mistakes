@@ -8,7 +8,7 @@ comments: false
 related: true
 
 show_date: true
-last_modified_at: 2024-08-11T00:00:00+01:00
+last_modified_at: 2024-06-06T00:00:00+01:00
 
 header:
   teaser: /assets/images/research/BurnsICML2024/multi-scale_tutte-th.jpg

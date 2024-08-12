@@ -15,9 +15,9 @@ layout: single
 entries_layout: list # list (default), grid
 
 header:
-  teaser: /assets/images/research/BurnsTangTMLR2023/petal-walk-th.png
-  image: /assets/images/research/BurnsTangTMLR2023/petal-walk.png
-  overlay_image: /assets/images/research/BurnsTangTMLR2023/petal-walk.png
+  teaser: /tfburns-minimal-mistakes/assets/images/research/BurnsTangTMLR2023/petal-walk-th.PNG
+  image: /tfburns-minimal-mistakes/assets/images/research/BurnsTangTMLR2023/petal-walk.PNG
+  overlay_image: /tfburns-minimal-mistakes/assets/images/research/BurnsTangTMLR2023/petal-walk.PNG
   overlay_filter: 0.3 # same as adding an opacity of 0.5 to a black background
   actions:
     - label: "PDF"
@@ -41,7 +41,7 @@ categories:
   - AI interpretability & evaluation
 ---
 
-![gif](/assets/images/research/BurnsTangTMLR2023/koala-ball-playing.gif)
+![gif](/tfburns-minimal-mistakes/assets/images/research/BurnsTangTMLR2023/koala-ball-playing.gif)
 
 In physics, spacetime is a geometric object which represents the three dimensions of space and the single dimension of time. Gravitational force is represented in this geometric object by its curvature. Can we do something similar in AI? For example, can we represent typical AI environments using a single geometric object? And if we could, what would its properties tell us?
 
@@ -53,7 +53,7 @@ Starting at a chosen state in the gridworld – a specified arrangement of the a
 
 When we repeat this process enough times, we can generate the state complex. State complexes represent all possible configurations of a system as a single geometric object, which means we can study them using mathematical tools from geometry (shapes of things), topology (shapes of space), and combinatorics (counting and combining things). In the state complex, a ‘state’ of the gridworld is represented by a node, and if a state is reachable by another state, then we connect their nodes with a line. In the example below, orange lines are due to Push/Pull and maroon lines are due to Move.
 
-![png](/assets/images/research/BurnsTangTMLR2023/staircase_v3_whitebg.png)
+![png](/tfburns-minimal-mistakes/assets/images/research/BurnsTangTMLR2023/staircase_v3_whitebg.PNG)
 
 The main contribution of our work is a modification to the original method of constructing state complexes, which more naturally captures the relative movements of the agents. With this modification, the state complexes may exhibit new geometric defects, specifically: a change in curvature. However, we prove this can only happen under very specific circumstances. And, serendipitously, we discover these circumstances occur exactly when the agents could potentially collide!
 

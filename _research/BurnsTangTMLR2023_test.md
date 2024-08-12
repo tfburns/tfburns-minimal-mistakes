@@ -10,6 +10,9 @@ related: true
 show_date: true
 last_modified_at: 2024-08-11T00:00:00+01:00
 
+header:
+  teaser: /tfburns-minimal-mistakes/assets/images/research/BurnsTangTMLR2023/petal-walk-th.PNG
+
 read_time: true
 words_per_minute: 200
 categories:

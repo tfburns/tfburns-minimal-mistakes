@@ -30,7 +30,7 @@ For this project, it was important to use naturalistic yet low-dimensional data.
 
 ![jpg](/tfburns-minimal-mistakes/assets/images/research/BurnsetalJNNS2018/figure1.jpg)
 
-I then used these data as training inputs to various recurrent neural networks (RNNs), and also adapted them for use in robotic arms, circumventing the inverse kinematics problem by interpolating joint-angles (within some safety bounds) between the four corners of a a 2D plane.
+I then used these data as training inputs to various recurrent neural networks (RNNs), and also adapted them for use in robotic arms, circumventing the inverse kinematics problem by interpolating joint-angles (within some safety bounds) between the four corners of a 2D plane.
 
 ![jpg](/tfburns-minimal-mistakes/assets/images/research/BurnsetalJNNS2018/figure2.jpg)
 
@@ -38,7 +38,7 @@ We can then interact with the learnt behaviour physcally via compliant robots an
 
 ![gif](/tfburns-minimal-mistakes/assets/images/research/BurnsetalJNNS2018/circle.gif)
 
-![gif](/tfburns-minimal-mistakes/assets/images/research/BurnsetalJNNS2018/figure-of-8.gif)
+![gif](/tfburns-minimal-mistakes/assets/images/research/BurnsetalJNNS2018/fig-of-8.gif)
 
 With this data and training, we then introduced an adaptive time constant for the multiple timescales recurrent neural network (MTRNN) inspired by the work of philosopher Henri Bergson (1859-1941). Observed variations in the recent activity of MTRNN neurons is used to adapt the time constant. We analysed how the time constant adapts in response to neuronal activity for a simple one-dimensional function-fitting task.
 

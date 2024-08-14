@@ -7,7 +7,7 @@ layout: single
 date: 2024-08-11
 ---
 
-{% assign docs_by_category = site.research | group_by: "category" | reverse %}
+{% assign docs_by_category = site.research | group_by: "categories" | reverse %}
 
 {% for category in docs_by_category %}
   <div class="category_wrapper">

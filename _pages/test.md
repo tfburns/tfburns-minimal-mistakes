@@ -7,6 +7,7 @@ layout: single
 date: 2024-08-11
 ---
 
-{% for paper in site.research %}
-  <h3><a href="{{ paper.url }}">{{ paper.title }}</a><h3>
+{% for paper in site.research reversed %}
+  <h2><a href="{{ paper.url }}">{{ paper.title }}</a><h2>
+  <i>{{ paper.excerpt }}</i>
 {% endfor %}

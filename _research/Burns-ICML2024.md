@@ -16,7 +16,9 @@ header:
   overlay_filter: 0.5
   actions:
   - label: "PDF"
-    url: "https://proceedings.mlr.press/v235/burns24a.html"
+    url: "/assets/pdfs/Burns-ICML-2024.pdf"
+  - label: "BibTex"
+    url: "/assets/bibtexs/Burns-ICML-2024.bib"
   - label: "GitHub repo"
     url: "https://github.com/tfburns/CDAM"
   - label: "X thread"

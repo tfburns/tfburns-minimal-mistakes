@@ -16,7 +16,9 @@ header:
   overlay_filter: 0.5
   actions:
   - label: "PDF"
-    url: "https://openreview.net/forum?id=_QLsH8gatwx"
+    url: "/assets/pdfs/Burns-Fukai-ICLR-2023.pdf"
+  - label: "BibTex"
+    url: "/assets/bibtexs/Burns-Fukai-ICLR-2023.bib"
   - label: "X thread"
     url: "https://x.com/tfburns/status/1631182727147048960"
   - label: "Talk"

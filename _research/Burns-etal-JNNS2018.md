@@ -17,6 +17,8 @@ header:
   actions:
   - label: "PDF"
     url: "/assets/pdfs/Burns-etal-JNNS-2018.pdf"
+  - label: "BibTex"
+    url: "/assets/bibtexs/Burns-Rajan-JNNS-2018.bib"
 
 categories:
   - Robotics & RNNs

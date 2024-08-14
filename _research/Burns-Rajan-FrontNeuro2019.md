@@ -17,6 +17,8 @@ header:
   actions:
   - label: "PDF"
     url: "/assets/pdfs/Burns-Rajan-FrontNeuro-2019.pdf"
+  - label: "BibTex"
+    url: "/assets/bibtexs/Burns-Rajan-FrontNeuro-2019.bib"
 
 categories:
   - Systems neuroscience

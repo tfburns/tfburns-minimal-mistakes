@@ -16,7 +16,7 @@ date: 2024-08-11
 {% assign groups = site.research | group_by: "categories" | sort: "name" %}
 
 {% for group in groups %}
-    {{ group.name }}
+	<div class="category">{{ group.name }}</div>
 	<ul>
     {% for item in group.items reversed %}
 		<li class="collapsed">
@@ -30,4 +30,5 @@ date: 2024-08-11
 		</li>
     {%endfor%}
 	</ul>
+	</div>
 {%endfor%}

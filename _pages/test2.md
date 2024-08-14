@@ -1,6 +1,6 @@
 ---
 title: "Test2"
-permalink: /test/
+permalink: /test2/
 author_profile: true
 comments: false
 layout: single

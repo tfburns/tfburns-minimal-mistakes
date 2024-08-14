@@ -315,9 +315,12 @@ collections:
   research:
     output: true
     permalink: /:collection/:path/
-  recipes:
-    output: true
-    permalink: /:collection/:path/
+
+categories-order:
+ - Transformers & associative memory
+ - AI interpretability & evaluation
+ - Policy & ethics
+ - Systems neuroscience
 
 # # Defaults
 # defaults:

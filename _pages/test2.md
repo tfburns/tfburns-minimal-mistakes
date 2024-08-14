@@ -37,11 +37,7 @@ date: 2024-08-11
     {% for item in currentCat.items %}
       <li class="collapsed">
         <a href="{{ site.baseurl }}{{ item.url }}">
-        {% if item.url == navurl %}
-          <u>{{ item.title }}</u>
-        {% else %}
           {{ item.title }}
-        {% endif %}
         </a>
       </li>
     {% endfor %}

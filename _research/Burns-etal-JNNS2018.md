@@ -1,6 +1,6 @@
 ---
 title: "A Bergson-Inspired Adaptive Time Constant for the Multiple Timescales Recurrent Neural Network Model"
-excerpt: "Cognitive neurorobotics using recurrent neural networks and naturalistic time-series data."
+excerpt: "This work in cognitive neurorobotics utilized recurrent neural networks and naturalistic time-series data."
 
 author_profile: true
 share: true

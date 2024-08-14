@@ -28,7 +28,7 @@ date: 2024-08-11
   {% endunless %}
 {% endfor %} -->
 
-{% assign docs_by_category = site.documentation | group_by: "category" %}
+{% assign docs_by_category = site.research | group_by: "category" %}
 {% for cat in site.categories-order %}
   {% assign currentCat = docs_by_category | where: 'name', cat | first %}
   <div class="category_wrapper">

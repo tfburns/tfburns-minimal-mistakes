@@ -11,8 +11,8 @@ show_date: true
 date: 2015-06-01
 
 header:
-  teaser: /assets/images/research/BurnsRajanF1000Research/eeg-th.png
-  overlay_image: /assets/images/research/BurnsRajanF1000Research/eeg.png
+  teaser: /assets/images/research/BurnsRajanF1000Research2015/eeg-th.png
+  overlay_image: /assets/images/research/BurnsRajanF1000Research2015/eeg.png
   overlay_filter: 0.5
   actions:
   - label: "PDF"

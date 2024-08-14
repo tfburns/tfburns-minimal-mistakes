@@ -28,11 +28,11 @@ date: 2024-08-11
   {% endunless %}
 {% endfor %} -->
 
-{% assign docs_by_category = site.research | group_by: "category" %}
+{% assign docs_by_category = site.research | group_by: "categories" %}
 {% for cat in site.categories-order %}
   {% assign currentCat = docs_by_category | where: 'name', cat | first %}
   <div class="category_wrapper">
-    <div class="category">{{ currentCat.name }}</div>
+    <div class="categories">{{ currentCat.name }}</div>
     <ul>
     {% for item in currentCat.items %}
       <li class="collapsed">

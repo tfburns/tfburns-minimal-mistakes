@@ -17,6 +17,7 @@ date: 2024-08-11
 
 {% for group in groups %}
     {{ group.name }}
+	<ul>
     {% for item in group.items reversed %}
 		<li class="collapsed">
           <a href="{{ site.baseurl }}{{ item.url }}">
@@ -26,6 +27,7 @@ date: 2024-08-11
             {{ item.title }}
           {% endif %}
           </a>
-      </li>
+		</li>
     {%endfor%}
+	</ul>
 {%endfor%}

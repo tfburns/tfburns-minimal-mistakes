@@ -32,7 +32,7 @@ date: 2024-08-11
 {% for cat in site.categories-order %}
   {% assign currentCat = docs_by_category | where: 'name', cat | first %}
   <div class="category_wrapper">
-    <div class="categories">{{ currentCat.name }}</div>
+    <div class="category">{{ currentCat.name }}</div>
     <ul>
     {% for item in currentCat.items %}
       <li class="collapsed">

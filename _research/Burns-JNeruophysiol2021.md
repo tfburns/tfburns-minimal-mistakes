@@ -11,14 +11,14 @@ show_date: true
 date: 2021-05-28
 
 header:
-  teaser: /assets/images/research/BurnsJNeurophysiol2023/JNeurophysiol-logo-th.png
-  overlay_image: /assets/images/research/BurnsJNeurophysiol2023/JNeurophysiol-logo.jpg
+  teaser: /assets/images/research/BurnsJNeurophysiol2021/JNeurophysiol-logo-th.png
+  overlay_image: /assets/images/research/BurnsJNeurophysiol2021/JNeurophysiol-logo.jpg
   overlay_filter: 0.5
   actions:
   - label: "PDF"
-    url: "/assets/pdfs/Burns-JME-2023.pdf"
+    url: "/assets/pdfs/Burns-JNeurophysiol-2021.pdf"
   - label: "BibTex"
-    url: "/assets/bibtexs/Burns-JME-2023.bib"
+    url: "/assets/bibtexs/Burns-JNeurophysiol-2021.bib"
 
 categories:
   - Transformers & associative memory

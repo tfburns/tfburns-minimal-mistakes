@@ -12,7 +12,7 @@ date: 2023-11-14
 
 header:
   teaser: /assets/images/research/BurnsBBS2023/BBS-logo-th.png
-  overlay_image: /assets/images/research/BurnsBBS2023/BBS-logo.PNG
+  overlay_image: /assets/images/research/BurnsBBS2023/BBS-logo.png
   overlay_filter: 0.5
   actions:
   - label: "PDF"
@@ -24,4 +24,4 @@ categories:
   - Transformers & associative memory
 ---
 
-External cues and internal configuration states are the likely instigators of involuntary autobiographical memories (IAMs) and déjà vu experience. Indeed, Barzykowski and Moulin discuss relevant neuroscientific evidence in this direction. A complementary line of enquiry and evidence is the study of inhibition and its role in memory retrieval, and particularly how its (dys)function may contribute to IAMs and déjà vu.
+External cues and internal configuration states are the likely instigators of involuntary autobiographical memories (IAMs) and déjà vu experience. A complementary line of enquiry and evidence is the study of inhibition and its role in memory retrieval, and particularly how its (dys)function may contribute to IAMs and déjà vu.

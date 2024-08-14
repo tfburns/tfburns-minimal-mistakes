@@ -16,7 +16,9 @@ header:
   overlay_filter: 0.5
   actions:
   - label: "PDF"
-    url: "https://doi.org/10.1523/ENEURO.0023-22.2022"
+    url: "/assets/pdfs/Burns-etal-eNeuro-2022.pdf"
+  - label: "BibTex"
+    url: "/assets/bibtexs/Burns-etal-eNeuro-2022.bib"
   - label: "GitHub repo"
     url: "https://github.com/tfburns/BurnsHagaFukai"
   - label: "X thread"

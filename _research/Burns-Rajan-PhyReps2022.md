@@ -16,7 +16,9 @@ header:
   overlay_filter: 0.5
   actions:
   - label: "PDF"
-    url: "https://doi.org/10.14814/phy2.15155"
+    url: "/assets/pdfs/Burns-Rajan-PhyReps-2022.pdf"
+  - label: "BibTex"
+    url: "/assets/bibtexs/Burns-Rajan-PhyReps-2022.bib"
   - label: "X thread"
     url: "https://x.com/tfburns/status/1496486077368270859"
 

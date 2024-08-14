@@ -16,7 +16,9 @@ header:
   overlay_filter: 0.5
   actions:
   - label: "PDF"
-    url: "https://openreview.net/forum?id=t4p612DftO"
+    url: "/assets/pdfs/Burns-Tang-2023.pdf"
+  - label: "BibTex"
+    url: "/assets/bibtexs/Burns-Tang-2023.bib"
   - label: "GitHub repo"
     url: "https://github.com/tfburns/State-Complexes-of-Gridworlds"
   - label: "X thread"

@@ -317,8 +317,8 @@ collections:
     permalink: /:collection/:path/
 
 categories-order:
- - Transformers & associative memory
  - AI interpretability & evaluation
+ - Associative memory & Transformers
  - Policy & ethics
  - Robotics & RNNs
  - Systems neuroscience

@@ -27,7 +27,7 @@ header:
     url: "https://www.oist.jp/news-center/news/2023/3/7/what-makes-neural-network-remember"
 
 categories:
-  - Transformers & associative memory
+  - Associative memory & Transformers
 ---
 
 Neurons in the brain take on wonderous and sophisticated shapes, stretching and crawling between one another to each make thousands of connections. Mediated by a ballet of biochemistry, they use brief electrical impulses to pass signals between each other at these connections. These impulses vary in size, electrical charge, timing, and even location on the neuron. And because these impulses are so brief while at the same time being so various in type, space, and time, our brains have evolved to become biological supercomputers capable of learning and becoming experts in many tasks while keeping energy consumption low. Our challenge is to discover and understand the algorithms and principles behind this complexity. 

@@ -27,7 +27,7 @@ header:
     url: "https://www.youtube.com/watch?v=GzRHOAbyPP0"
 
 categories:
-  - Transformers & associative memory
+  - Associative memory & Transformers
 ---
 
 Broadly speaking, there are two types of neurons in the brain: excitatory and inhibitory. Inhibitory neurons are amazingly diverse compared to excitatory neurons. Why? Using a computational model with realistically-sized groups of excitatory neurons (representing memories) associated together in a network of memories, my colleagues and I have highlighted a biologically-plausible and behaviourally-useful function of inhibitory neuron diversity in memory.

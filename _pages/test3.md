@@ -21,7 +21,7 @@ date: 2024-08-11
 	{{ category["name"] | escape_once }}
     <ul>
     {% for item in category.items reversed %}
-	{% if forloop.index == 1 }}
+	{% if forloop.first }}
 	{{ item.categories }}
 	{% endif %}
       <li class="collapsed">

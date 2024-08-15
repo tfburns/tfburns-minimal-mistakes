@@ -9,9 +9,16 @@ date: 2024-08-11
 
 {% assign docs_by_category = site.research | group_by: "categories" | reverse %}
 
+{{ site.categories-order[0] }}
+
 {% for category in docs_by_category %}
   <div class="category_wrapper">
 	{{ category["name"] }}
+	{{ category["name"] | first }}
+	{{ category["name"] | last }}
+	{{ category["name"] | lstrip }}
+	{{ category["name"] | rstrip }}
+	{{ category["name"] | escape_once }}
     <ul>
     {% for item in category.items reversed %}
       <li class="collapsed">

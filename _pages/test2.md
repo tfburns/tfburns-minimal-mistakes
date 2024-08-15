@@ -1,5 +1,5 @@
 ---
-title: "test4"
+title: "test2"
 permalink: /test2/
 author_profile: true
 comments: false

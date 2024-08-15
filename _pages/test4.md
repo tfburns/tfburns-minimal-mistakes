@@ -14,9 +14,8 @@ date: 2024-08-11
     {% for item in category.items reversed %}
 	{% if forloop.first %}
 	{{ item.categories }}
+	<ul>
 	{% endif %}
-	
-    <ul>
       <li class="collapsed">
           <a href="{{ site.baseurl }}{{ item.url }}">
           {% if item.url == navurl %}

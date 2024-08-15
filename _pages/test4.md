@@ -11,7 +11,7 @@ date: 2024-08-11
 
 {% for category in docs_by_category %}
   <div class="category_wrapper">
-  {{ site.categories-order[{{forloop.index | minus:1 }}] }}
+  {{ site.categories-order[forloop.index-1] }}
     <ul>
     {% for item in category.items reversed %}
       <li class="collapsed">

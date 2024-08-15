@@ -18,7 +18,7 @@ date: 2024-08-11
 	{% endif %}
       <li class="collapsed">
 		  <img src="{{ site.baseurl }}{{ item.header.teaser }}">
-          <a href="{{ site.baseurl }}{{ item.url }}">
+          # <a href="{{ site.baseurl }}{{ item.url }}">
           {% if item.url == navurl %}
             <u>{{ item.title }}</u>
           {% else %}

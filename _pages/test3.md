@@ -14,6 +14,7 @@ date: 2024-08-11
     <div class="category">{{ category.name }}</div>
 	{{ category.name | remove: "e"}}
 	{{ category.title | remove: "e"}}
+	{{ category.label | remove: "e"}}
     <ul>
     {% for item in category.items reversed %}
       <li class="collapsed">

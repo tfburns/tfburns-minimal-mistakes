@@ -1,25 +1,27 @@
 ---
-title: "Test4"
-permalink: /test4/
+title: "Research"
+permalink: /test3/
 author_profile: true
 comments: false
 layout: single
 date: 2024-08-11
 ---
 
-<!-- {% assign docs_by_category = site.research | group_by: "categories" | reverse %}
+{% assign docs_by_category = site.research | group_by: "categories" | reverse %}
 
-{% for category in site.categories-order %}
-  {{category.name}}
-{% endfor %} -->
+{{ site.categories-order[0] }}
 
-{% assign groups = site.research | group_by: "categories" | sort: "name" %}
-
-{% for group in groups %}
-	<div class="category">{{ group.name }}</div>
-	<ul>
-    {% for item in group.items reversed %}
-		<li class="collapsed">
+{% for category in docs_by_category %}
+  <div class="category_wrapper">
+	{{ category["name"] }}
+	{{ category["name"] | first }}
+	{{ category["name"] | last }}
+	{{ category["name"] | lstrip }}
+	{{ category["name"] | rstrip }}
+	{{ category["name"] | escape_once }}
+    <ul>
+    {% for item in category.items reversed %}
+      <li class="collapsed">
           <a href="{{ site.baseurl }}{{ item.url }}">
           {% if item.url == navurl %}
             <u>{{ item.title }}</u>
@@ -27,20 +29,8 @@ date: 2024-08-11
             {{ item.title }}
           {% endif %}
           </a>
-		</li>
-    {%endfor%}
-	</ul>
-	</div>
-{%endfor%}
-
-<ul>
-{% for category in site.categories %}
-  <li><a name="{{ category | first }}">{{ category | first }}</a>
-    <ul>
-    {% for post in category.last %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      </li>
     {% endfor %}
     </ul>
-  </li>
+  </div>
 {% endfor %}
-</ul>

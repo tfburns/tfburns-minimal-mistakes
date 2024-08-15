@@ -3,4 +3,6 @@ main:
   - title: "About"
     url: https://tfburns.github.io/tfburns-minimal-mistakes/about/
   - title: "Research"
-    url: https://tfburns.github.io/tfburns-minimal-mistakes/research-archive/
+    url: https://tfburns.github.io/tfburns-minimal-mistakes/research/
+  - title: "Talks"
+    url: https://tfburns.github.io/tfburns-minimal-mistakes/talks/

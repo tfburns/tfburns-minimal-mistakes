@@ -316,12 +316,12 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-categories-order:
- - AI interpretability & evaluation
- - Associative memory & Transformers
- - Policy & ethics
- - Robotics & RNNs
- - Systems neuroscience
+# categories-order:
+ # - AI interpretability & evaluation
+ # - Associative memory & Transformers
+ # - Policy & ethics
+ # - Robotics & RNNs
+ # - Systems neuroscience
 
 # # Defaults
 # defaults:

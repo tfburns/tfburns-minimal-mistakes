@@ -1,6 +1,6 @@
 ---
-title: "Research"
-permalink: /test3/
+title: "test4"
+permalink: /test4/
 author_profile: true
 comments: false
 layout: single
@@ -9,16 +9,9 @@ date: 2024-08-11
 
 {% assign docs_by_category = site.research | group_by: "categories" | reverse %}
 
-{{ site.categories-order[0] }}
-
 {% for category in docs_by_category %}
   <div class="category_wrapper">
-	{{ category["name"] }}
-	{{ category["name"] | first }}
-	{{ category["name"] | last }}
-	{{ category["name"] | lstrip }}
-	{{ category["name"] | rstrip }}
-	{{ category["name"] | escape_once }}
+  {{ site.categories-order[forloop.index] }}
     <ul>
     {% for item in category.items reversed %}
       <li class="collapsed">

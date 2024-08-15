@@ -9,15 +9,13 @@ date: 2024-08-11
 
 {% assign docs_by_category = site.research | group_by: "categories" | reverse %}
 
-{{ site.categories-order[0] }}
-
 {% for category in docs_by_category %}
   <div class="category_wrapper">
-    <ul>
     {% for item in category.items reversed %}
 	{% if forloop.first %}
 	{{ item.categories }}
-{% endif %}
+	{% endif %}
+	<ul>
       <li class="collapsed">
           <a href="{{ site.baseurl }}{{ item.url }}">
           {% if item.url == navurl %}

@@ -11,7 +11,7 @@ date: 2024-08-11
 
 {% for category in docs_by_category %}
   <div class="category_wrapper">
-    <div class="category">{{ category.title | remove: """}}</div>
+    <div class="category">{{ category.label | remove: """}}</div>
     <ul>
     {% for item in category.items reversed %}
       <li class="collapsed">

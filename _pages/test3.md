@@ -1,5 +1,5 @@
 ---
-title: "Test3"
+title: "Research"
 permalink: /test3/
 author_profile: true
 comments: false
@@ -11,7 +11,9 @@ date: 2024-08-11
 
 {% for category in docs_by_category %}
   <div class="category_wrapper">
-    <div class="category">{{ category.label | remove: """}}</div>
+	{{ category.name | remove: "s"}}
+	{{ category.title | remove: "e"}}
+	{{ category.label | remove: "a"}}
     <ul>
     {% for item in category.items reversed %}
       <li class="collapsed">

@@ -14,7 +14,7 @@ date: 2024-08-11
 	<ul>
 	{% for item in category.items reversed %}
 	{% if forloop.first %}
-	<h4>{{ item.categories }}</h4>
+	<div class="category">{{ item.categories }}</div>
 	{% endif %}
       <li class="collapsed">
           <a href="{{ site.baseurl }}{{ item.url }}">

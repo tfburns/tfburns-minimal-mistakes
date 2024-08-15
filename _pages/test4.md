@@ -11,11 +11,12 @@ date: 2024-08-11
 
 {% for category in docs_by_category %}
   <div class="category_wrapper">
-    <ul>
     {% for item in category.items reversed %}
 	{% if forloop.first %}
-	<div class="category">{{ item.categories }}</div>
+	{{ item.categories }}
 	{% endif %}
+	
+    <ul>
       <li class="collapsed">
           <a href="{{ site.baseurl }}{{ item.url }}">
           {% if item.url == navurl %}

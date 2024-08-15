@@ -1,28 +1,32 @@
 ---
-title: "Test2"
-permalink: /test2/
+title: "test4"
+permalink: /test4/
 author_profile: true
 comments: false
 layout: single
 date: 2024-08-11
 ---
 
-{% for my_doc in site.research %}
+{% assign docs_by_category = site.research | group_by: "categories" | reverse %}
 
-{% for category in my_doc.categories %}
-  {% capture my_categories %}
-    {% if my_categories %}
-      {{ my_categories | join: "," }},{{ category }}
-    {% else %}
-       {{ category }}
-    {% endif %}
-  {% endcapture %}
-{% endfor %}
+{% for category in docs_by_category %}
 
-{% endfor %}
-
-{% assign my_categories = my_categories | split: "," | uniq %}
-
-{% for cat in my_categories %}
-  {{cat }}
+    {% for item in category.items reversed %}
+	{% if forloop.first %}
+	{{ item.categories }}
+	{% endif %}
+	<div class="category_wrapper">
+    <ul>
+      <li class="collapsed">
+          <a href="{{ site.baseurl }}{{ item.url }}">
+          {% if item.url == navurl %}
+            <u>{{ item.title }}</u>
+          {% else %}
+            {{ item.title }}
+          {% endif %}
+          </a>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
 {% endfor %}

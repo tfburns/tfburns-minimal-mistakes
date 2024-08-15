@@ -15,9 +15,9 @@ date: 2024-08-11
   <div class="category_wrapper">
     <ul>
     {% for item in category.items reversed %}
-
+	{% if forloop.first %}
 	{{ item.categories }}
-
+{% endif %}
       <li class="collapsed">
           <a href="{{ site.baseurl }}{{ item.url }}">
           {% if item.url == navurl %}

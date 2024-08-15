@@ -7,40 +7,22 @@ layout: single
 date: 2024-08-11
 ---
 
-<!-- {% assign entries_layout = page.entries_layout | default: 'list' %}
-{% capture written_label %}'None'{% endcapture %}
+{% for my_doc in site.research %}
 
-{% for collection in site.collections %}
-  {% unless collection.output == false or collection.label == "posts" %}
-    <section class="taxonomy__section">
-      {% capture label %}{{ collection.label }}{% endcapture %}
-      {% if label != written_label %}
-        <h2 id="{{ label | slugify }}" class="archive__subtitle">{{ label }}</h2>
-        {% capture written_label %}{{ label }}{% endcapture %}
-      {% endif %}
-      <div class="entries-{{ entries_layout }}">
-        {% for post in collection.docs %}
-          {% include archive-single.html type=entries_layout %}
-        {% endfor %}
-      </div>
-      <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
-    </section>
-  {% endunless %}
-{% endfor %} -->
+{% for category in my_doc.categories %}
+  {% capture my_categories %}
+    {% if my_categories %}
+      {{ my_categories | join: "," }},{{ category }}
+    {% else %}
+       {{ category }}
+    {% endif %}
+  {% endcapture %}
+{% endfor %}
 
-{% assign docs_by_category = site.research | group_by: "categories" %}
-{% for cat in site.categories-order %}
-  {% assign currentCat = docs_by_category | where: 'name', cat | first %}
-  <div class="category_wrapper">
-    <div class="category">{{ currentCat.name }}</div>
-    <ul>
-    {% for item in currentCat.items %}
-      <li class="collapsed">
-        <a href="{{ site.baseurl }}{{ item.url }}">
-          {{ item.title }}
-        </a>
-      </li>
-    {% endfor %}
-    </ul>
-  </div>
+{% endfor %}
+
+{% assign my_categories = my_categories | split: "," | uniq %}
+
+{% for cat in my_categories %}
+  {{cat }}
 {% endfor %}
